@@ -1,7 +1,7 @@
 
-**Porting Fortran Code to AMD GPUs Using ROCm**
+**Porting Fortran Code to [[AMD]] GPUs Using [[ROCm]]**
 
-To leverage your AMD GPU for running the Fire Dynamics Simulator (FDS) written in Fortran, you'll need to port the code to utilize GPU acceleration. Below is a comprehensive guide to help you through the process, including modifying the code, using profiling tools like `rocprof` and `perfetto`, and understanding GPU memory management, kernel writing, and launching.
+To leverage your [[AMD]] GPU for running the Fire Dynamics Simulator (FDS) written in Fortran, you'll need to port the code to utilize GPU acceleration. Below is a comprehensive guide to help you through the process, including modifying the code, using profiling tools like `rocprof` and `perfetto`, and understanding GPU memory management, [[kernel]] writing, and launching.
 
 ---
 
@@ -14,25 +14,25 @@ Before making any modifications, familiarize yourself with FDS's code structure:
 
 ### **2. Set Up the Development Environment**
 
-To develop and run GPU-accelerated Fortran code on AMD hardware, you'll need:
+To develop and run GPU-accelerated Fortran code on [[AMD]] hardware, you'll need:
 
-- **AMD ROCm Platform**: ROCm is AMD's open software platform for GPU computing.
-  - **Installation**: Follow the official ROCm installation guide for your operating system: [ROCm Installation Guide](https://rocmdocs.amd.com/en/latest/Installation_Guide/Installation-Guide.html).
+- **[[AMD]] [[ROCm]] Platform**: [[ROCm]] is [[AMD]]'s open software platform for GPU computing.
+  - **Installation**: Follow the official [[ROCm]] installation guide for your operating system: [[ROCm]] Installation Guide](https://[[ROCm]]docs.[[AMD]].com/en/latest/Installation_Guide/Installation-Guide.html).
 - **Fortran Compiler with GPU Support**:
-  - **AMD Optimizing CPU Libraries (AOCL) Fortran Compiler**: Supports OpenMP offloading to AMD GPUs.
+  - **[[AMD]] Optimizing CPU Libraries (AOCL) Fortran Compiler**: Supports [[OpenMP]] offloading to [[AMD]] GPUs.
   - **LLVM Flang**: An open-source Fortran front-end for LLVM, but GPU offloading support may be limited.
-  - **NVIDIA's NVHPC Compiler**: Supports OpenACC and OpenMP offloading, but primarily optimized for NVIDIA GPUs.
-  - **Alternative**: Use the open-source GFortran compiler with OpenMP 4.5+ support, though GPU offloading capabilities may vary.
+  - **[[NVIDIA]]'s NVHPC Compiler**: Supports [[OpenACC]] and [[OpenMP]] offloading, but primarily optimized for [[NVIDIA]] GPUs.
+  - **Alternative**: Use the open-source [[gfort]]ran]] compiler with [[OpenMP]] 4.5+ support, though GPU offloading capabilities may vary.
 
 ### **3. Choose a Parallelization Model**
 
-Two primary models for GPU acceleration in Fortran are **OpenMP** and **OpenACC**.
+Two primary models for GPU acceleration in Fortran are **[[OpenMP]]** and **[[OpenACC]]**.
 
-#### **OpenMP Offloading**
+#### **[[OpenMP]] Offloading**
 
 - **Pros**:
   - Widely supported and integrated into many compilers.
-  - Familiar syntax if the code already uses OpenMP for CPU parallelization.
+  - Familiar syntax if the code already uses [[OpenMP]] for CPU parallelization.
 - **Cons**:
   - GPU offloading features are compiler-dependent.
 - **Implementation Steps**:
@@ -47,23 +47,23 @@ Two primary models for GPU acceleration in Fortran are **OpenMP** and **OpenACC*
   !$omp end target teams distribute parallel do
   ```
 
-#### **OpenACC**
+#### **[[OpenACC]]**
 
 - **Pros**:
   - Designed specifically for accelerators and GPUs.
   - Simplifies data management between host and device.
 - **Cons**:
-  - Requires a compiler with OpenACC support and AMD GPU backend.
+  - Requires a compiler with [[OpenACC]] support and [[AMD]] GPU backend.
 - **Implementation Steps**:
   - Add `!$acc` directives to parallel regions.
   - Manage data movement with `!$acc data` directives.
 - **Example**:
   ```fortran
-  !$acc kernels
+  !$acc [[kernel]]s
   do i = 1, N
     array(i) = compute_value(i)
   end do
-  !$acc end kernels
+  !$acc end [[kernel]]s
   ```
 
 ### **4. Modify the Code for GPU Acceleration**
@@ -75,7 +75,7 @@ Two primary models for GPU acceleration in Fortran are **OpenMP** and **OpenACC*
 
 #### **Add Parallel Directives**
 
-- Insert OpenMP or OpenACC directives around computationally intensive loops.
+- Insert [[OpenMP]] or [[OpenACC]] directives around computationally intensive loops.
 - Ensure that data dependencies are properly managed to avoid race conditions.
 
 #### **Manage Data Movement**
@@ -94,7 +94,7 @@ do i = 1, N
 end do
 ```
 
-Modified Loop with OpenMP Offloading:
+Modified Loop with [[OpenMP]] Offloading:
 ```fortran
 !$omp target teams distribute parallel do
 do i = 1, N
@@ -109,23 +109,23 @@ end do
 
 - **Compilation Command**:
   ```bash
-  flang -fopenmp -fopenmp-targets=amdgcn-amd-amdhsa -O3 -o fds_gpu fds.f90
+  flang -f[[OpenMP]] -f[[OpenMP]]-targets=[[AMD]]gcn-[[AMD]]-[[AMD]]hsa -O3 -o fds_gpu fds.f90
   ```
 - **Flags Explanation**:
-  - `-fopenmp`: Enables OpenMP support.
-  - `-fopenmp-targets=amdgcn-amd-amdhsa`: Specifies the target GPU architecture.
+  - `-f[[OpenMP]]`: Enables [[OpenMP]] support.
+  - `-f[[OpenMP]]-targets=[[AMD]]gcn-[[AMD]]-[[AMD]]hsa`: Specifies the target GPU architecture.
   - `-O3`: Optimization level 3 for performance.
 
 #### **Potential Issues**
 
-- **Compiler Errors**: If the compiler doesn't support certain OpenMP features, you may need to update or switch compilers.
-- **Linking Libraries**: Ensure that ROCm libraries are linked correctly.
+- **Compiler Errors**: If the compiler doesn't support certain [[OpenMP]] features, you may need to update or switch compilers.
+- **Linking Libraries**: Ensure that [[ROCm]] libraries are linked correctly.
 
 ### **6. Run and Test the Application**
 
 - **Set Environment Variables**:
   - `OMP_TARGET_OFFLOAD=MANDATORY`: Ensures that offloading is required.
-  - `ACC_DEVICE_TYPE=gpu`: For OpenACC, specify the device type.
+  - `ACC_DEVICE_TYPE=gpu`: For [[OpenACC]], specify the device type.
 - **Execute the Program**:
   ```bash
   ./fds_gpu
@@ -142,7 +142,7 @@ end do
   ```bash
   rocprof --stats ./fds_gpu
   ```
-- **Output**: Provides kernel execution times, memory transfer stats, and more.
+- **Output**: Provides [[kernel]] execution times, memory transfer stats, and more.
 
 #### **Using `perfetto`**
 
@@ -161,12 +161,12 @@ end do
 
 #### **Interpret Results**
 
-- **Identify Bottlenecks**: Look for kernels with high execution time.
+- **Identify Bottlenecks**: Look for [[kernel]]s with high execution time.
 - **Optimize**: Modify code to improve performance, such as optimizing memory access patterns or increasing parallelism.
 
 ### **8. Advanced Optimization**
 
-#### **Kernel Optimization**
+#### **[[kernel]] Optimization**
 
 - **Memory Coalescing**: Ensure that memory accesses are sequential to improve bandwidth utilization.
 - **Compute-to-Memory Ratio**: Aim for computations that do more work per memory access.
@@ -174,21 +174,21 @@ end do
 #### **Concurrency**
 
 - **Asynchronous Execution**: Overlap data transfers with computations using asynchronous data directives.
-- **Stream Management**: Use multiple streams or queues to manage concurrent kernel execution.
+- **Stream Management**: Use multiple streams or queues to manage concurrent [[kernel]] execution.
 
 ### **9. Resources and Tutorials**
 
-- **AMD ROCm Documentation**:
-  - [ROCm Documentation](https://rocmdocs.amd.com/)
-- **OpenMP Offloading Guide**:
-  - [OpenMP Target Offloading](https://www.openmp.org/spec-html/5.0/openmpsu50.html#x151-3170002.8)
+- **[[AMD]] [[ROCm]] Documentation**:
+  - [[ROCm]] Documentation](https://[[ROCm]]docs.[[AMD]].com/)
+- **[[OpenMP]] Offloading Guide**:
+  - [[OpenMP]] Target Offloading](https://www.[[OpenMP]].org/spec-html/5.0/[[OpenMP]]su50.html#x151-3170002.8)
 - **Tutorials**:
-  - [Porting Fortran Applications to AMD GPUs](https://www.olcf.ornl.gov/wp-content/uploads/2020/12/Fortran-GPU-Offloading-Tutorial.pdf)
-  - [Reddit Tutorial Post](https://www.reddit.com/r/ROCm/comments/12dvqtk/tutorial_porting_a_simple_fortran_application_to/)
+  - [Porting Fortran Applications to [[AMD]] GPUs](https://www.olcf.ornl.gov/wp-content/uploads/2020/12/Fortran-GPU-Offloading-Tutorial.pdf)
+  - [Reddit Tutorial Post](https://www.reddit.com/r/[[ROCm]]/comments/12dvqtk/tutorial_porting_a_simple_fortran_application_to/)
 
 ### **10. Potential Challenges**
 
-- **Compiler Limitations**: Not all compilers fully support OpenMP offloading to AMD GPUs.
+- **Compiler Limitations**: Not all compilers fully support [[OpenMP]] offloading to [[AMD]] GPUs.
 - **Code Complexity**: Large codebases may have dependencies or programming patterns that complicate GPU acceleration.
 - **Performance Tuning**: Achieving optimal performance may require iterative profiling and optimization.
 
@@ -196,16 +196,16 @@ end do
 
 ### **Conclusion**
 
-By following these steps, you can modify the FDS code to run on your AMD GPU, potentially achieving significant performance improvements over CPU-only execution. Profiling tools like `rocprof` and `perfetto` will aid in identifying bottlenecks and optimizing your application.
+By following these steps, you can modify the FDS code to run on your [[AMD]] GPU, potentially achieving significant performance improvements over CPU-only execution. Profiling tools like `rocprof` and `perfetto` will aid in identifying bottlenecks and optimizing your application.
 
 **Next Steps**:
 
-1. **Set Up Your Environment**: Install ROCm and choose a compatible Fortran compiler.
-2. **Modify and Compile**: Begin adding OpenMP or OpenACC directives to your code.
+1. **Set Up Your Environment**: Install [[ROCm]] and choose a compatible Fortran compiler.
+2. **Modify and Compile**: Begin adding [[OpenMP]] or [[OpenACC]] directives to your code.
 3. **Test and Validate**: Ensure that your GPU-accelerated code produces correct results.
 4. **Profile and Optimize**: Use profiling tools to identify performance issues and optimize accordingly.
 5. **Iterate**: Optimization is an iterative process; continue refining your code for better performance.
 
 ---
 
-If you encounter specific issues or have questions during the process, consider reaching out to the AMD developer community or forums for assistance.
+If you encounter specific issues or have questions during the process, consider reaching out to the [[AMD]] developer community or forums for assistance.

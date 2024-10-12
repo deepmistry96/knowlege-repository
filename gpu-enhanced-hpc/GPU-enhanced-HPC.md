@@ -1,16 +1,16 @@
 
 Links:
-https://19january2021snapshot.epa.gov/ceam/hydrological-simulation-program-fortran-hspf_.html
+https://19january2021snapshot.epa.gov/ceam/hydrological-[[simulation]]-program-fortran-hspf_.html
 
 https://github.com/trending/fortran
 
 https://github.com/firemodels/fds
 
-https://github.com/wrf-model/WRF/tree/master
+https://github.com/[[WRF]]-model/[[WRF]]/tree/master
 
-https://www2.mmm.ucar.edu/wrf/users/download/get_source.html
+https://www2.mmm.ucar.edu/[[WRF]]/users/download/get_source.html
 
-https://www.reddit.com/r/ROCm/comments/12dvqtk/tutorial_porting_a_simple_fortran_application_to/
+https://www.reddit.com/r/[[ROCm]]/comments/12dvqtk/tutorial_porting_a_simple_fortran_application_to/
 
 https://www.google.com/search?q=hipfort&client=firefox-b-1-d&sca_esv=29880a52b809b5f4&sxsrf=ADLYWIJ1YdexPxTzdIr0HTKTlcVYnSlSdg:1728666697576&ei=SVwJZ9n1IrjlwN4P7aK3wQs&start=10&sa=N&sstk=Aagrsuif1y57oaPw7sH3wmpzWy-BPue_9jdwuI2PEIiy1ArlxSieeADQuJG95_50tWu_Ak2j4orJxdQZ0wyoOP_pkTr0Ib3L2oryBQ&ved=2ahUKEwiZvsaj6YaJAxW4MtAFHW3RLbgQ8tMDegQIJhAE&biw=1225&bih=695&dpr=2.4
 
@@ -24,7 +24,7 @@ https://www.youtube.com/watch?v=SQiwWunEPkc
 
 
 
-GPUs (Graphics Processing Units) have become pivotal in modern computing, extending far beyond their original role in rendering graphics. Their versatility and computational power have spurred widespread adoption across various industries, leading to significant interest from both consumers and investors, as evidenced by NVIDIA's rising stock prices. Let's delve into the key aspects of GPU usage, their unique characteristics, applications, and alternatives.
+GPUs (Graphics Processing Units) have become pivotal in modern computing, extending far beyond their original role in rendering graphics. Their versatility and computational power have spurred widespread adoption across various industries, leading to significant interest from both consumers and investors, as evidenced by [[NVIDIA]]'s rising stock prices. Let's delve into the key aspects of GPU usage, their unique characteristics, applications, and alternatives.
 
 ### 1. **Understanding GPUs and Their Rise in Popularity**
 
@@ -44,16 +44,16 @@ Several factors have contributed to the surge in GPU popularity:
   
 - **Data Centers and Cloud Computing:** Cloud providers leverage GPUs to offer high-performance computing services for various applications.
 
-**NVIDIA’s Stock Performance:**
-NVIDIA, a leading GPU manufacturer, has seen its stock price soar due to its dominant position in several high-growth sectors:
+**[[NVIDIA]]’s Stock Performance:**
+[[NVIDIA]], a leading GPU manufacturer, has seen its stock price soar due to its dominant position in several high-growth sectors:
 
-- **AI Leadership:** NVIDIA's CUDA platform and GPU architectures are widely adopted in AI research and development.
+- **AI Leadership:** [[NVIDIA]]'s [[CUDA]] platform and GPU architectures are widely adopted in AI research and development.
   
-- **Data Center Expansion:** Increasing demand for cloud-based services and high-performance computing drives NVIDIA's data center revenue.
+- **Data Center Expansion:** Increasing demand for cloud-based services and high-performance computing drives [[NVIDIA]]'s data center revenue.
   
-- **Gaming Dominance:** Continuous innovations in GPU technology keep NVIDIA at the forefront of the gaming market.
+- **Gaming Dominance:** Continuous innovations in GPU technology keep [[NVIDIA]] at the forefront of the gaming market.
   
-- **Diversification:** NVIDIA is expanding into areas like autonomous vehicles and edge computing, broadening its market reach.
+- **Diversification:** [[NVIDIA]] is expanding into areas like autonomous vehicles and edge computing, broadening its market reach.
 
 ### 2. **Why the Obsession with GPUs?**
 
@@ -65,12 +65,12 @@ The obsession with GPUs stems from their unmatched ability to handle large-scale
   
 - **Scalability:** GPUs can be scaled across multiple units to handle increasing computational demands.
   
-- **Ecosystem and Software Support:** Robust frameworks like NVIDIA’s CUDA, AMD's ROCm, and APIs such as OpenCL facilitate GPU programming and integration.
+- **Ecosystem and Software Support:** Robust frameworks like [[NVIDIA]]’s [[CUDA]], [[AMD]]'s [[ROCm]], and APIs such as OpenCL facilitate GPU programming and integration.
 
 ### 3. **Differences Between GPUs in High-Performance Systems vs. Laptops/Phones**
 
-**High-Performance GPUs (e.g., NVIDIA RTX Series, AMD Radeon Pro):**
-- **Designed for Intensive Tasks:** Tailored for gaming, professional rendering, AI training, and scientific simulations.
+**High-Performance GPUs (e.g., [[NVIDIA]] RTX Series, [[AMD]] Radeon Pro):**
+- **Designed for Intensive Tasks:** Tailored for gaming, professional rendering, AI training, and scientific [[simulation]]s.
 - **Higher Power Consumption:** Require more power and cooling solutions.
 - **Greater Memory Capacity and Bandwidth:** Equipped with larger and faster memory to handle complex tasks.
 - **Advanced Features:** Support ray tracing, tensor cores for AI, and other specialized processing units.
@@ -89,7 +89,7 @@ GPUs are integral to a diverse array of industries, including:
   
 - **Artificial Intelligence and Machine Learning:** Training and deploying deep learning models for applications like image recognition, natural language processing, and autonomous systems.
   
-- **Scientific Research and Simulations:** Facilitating complex simulations in fields like physics, chemistry, biology, and climate science.
+- **Scientific Research and [[simulation]]s:** Facilitating complex [[simulation]]s in fields like physics, chemistry, biology, and climate science.
   
 - **Healthcare:** Enhancing medical imaging, genomics, and drug discovery through accelerated computations.
   
@@ -101,13 +101,13 @@ GPUs are integral to a diverse array of industries, including:
   
 - **Data Centers and Cloud Services:** Providing the backbone for high-performance computing services and big data analytics.
 
-### 5. **GPUs in Simulations and Graphics**
+### 5. **GPUs in [[simulation]]s and Graphics**
 
 **Graphics Rendering:**
 GPUs excel at rendering detailed and realistic images by handling numerous parallel operations required for shading, texturing, and lighting. Technologies like ray tracing, which simulates the physical behavior of light, are heavily reliant on GPU capabilities.
 
-**Simulations:**
-Scientific and engineering simulations, such as fluid dynamics, molecular modeling, and astrophysical simulations, require handling vast amounts of data and computations. GPUs enable these simulations to run faster and handle more complex models by leveraging their parallel processing power.
+**[[simulation]]s:**
+Scientific and engineering [[simulation]]s, such as fluid dynamics, molecular modeling, and astrophysical [[simulation]]s, require handling vast amounts of data and computations. GPUs enable these [[simulation]]s to run faster and handle more complex models by leveraging their parallel processing power.
 
 ### 6. **Theoretical Limits of GPUs**
 
@@ -151,7 +151,7 @@ GPUs interact with software through a combination of hardware and software inter
 
 **Programming Models and APIs:**
 
-- **CUDA (Compute Unified Device Architecture):** NVIDIA’s proprietary parallel computing platform and API, allowing developers to write software that leverages GPU cores for general-purpose processing.
+- **[[CUDA]] (Compute Unified Device Architecture):** [[NVIDIA]]’s proprietary parallel computing platform and API, allowing developers to write software that leverages GPU cores for general-purpose processing.
   
 - **OpenCL (Open Computing Language):** An open standard for parallel programming across heterogeneous platforms, including GPUs, CPUs, and other processors.
   
@@ -159,22 +159,22 @@ GPUs interact with software through a combination of hardware and software inter
   
 - **Metal:** Apple’s graphics and compute API for macOS and iOS, enabling low-level access to GPU resources.
   
-- **OpenACC and OpenMP:** High-level programming models that offer directives-based parallelism, simplifying GPU programming for certain applications.
+- **[[OpenACC]] and [[OpenMP]]:** High-level programming models that offer directives-based parallelism, simplifying GPU programming for certain applications.
 
 **Software Libraries and Frameworks:**
 
-- **TensorFlow, PyTorch:** Deep learning frameworks that utilize GPUs for training and inference through integrated CUDA or ROCm support.
+- **TensorFlow, PyTorch:** Deep learning frameworks that utilize GPUs for training and inference through integrated [[CUDA]] or [[ROCm]] support.
   
 - **Blender, Autodesk Maya:** 3D modeling and rendering software that leverage GPU acceleration for real-time previews and faster rendering.
   
-- **Simulation Software:** Tools like ANSYS, MATLAB, and others use GPU acceleration for complex computations and simulations.
+- **[[simulation]] Software:** Tools like ANSYS, MATLAB, and others use GPU acceleration for complex computations and [[simulation]]s.
 
 **Drivers and Middleware:**
 GPU manufacturers provide drivers that translate high-level API calls into hardware-specific instructions, ensuring compatibility and optimal performance. Middleware solutions can abstract hardware differences, allowing software to run on various GPU architectures without modification.
 
 **Memory Management and Data Transfer:**
-Efficient data transfer between the CPU and GPU memory is crucial. Techniques like Unified Memory in CUDA facilitate seamless data sharing, while APIs provide functions to manage memory allocation, data transfer, and synchronization between processors.
+Efficient data transfer between the CPU and GPU memory is crucial. Techniques like Unified Memory in [[CUDA]] facilitate seamless data sharing, while APIs provide functions to manage memory allocation, data transfer, and synchronization between processors.
 
 ### 9. **Conclusion**
 
-GPUs have transcended their initial role in graphics rendering to become essential components in a wide array of computationally intensive applications. Their parallel processing capabilities, combined with ongoing advancements in hardware and software ecosystems, have fueled their popularity and the rise of companies like NVIDIA. While alternatives like TPUs, FPGAs, and ASICs offer specialized functionalities, GPUs remain a versatile and powerful choice for many industries. As technology progresses, GPUs are likely to continue evolving, pushing the boundaries of what’s possible in computation, simulation, graphics, and beyond.
+GPUs have transcended their initial role in graphics rendering to become essential components in a wide array of computationally intensive applications. Their parallel processing capabilities, combined with ongoing advancements in hardware and software ecosystems, have fueled their popularity and the rise of companies like [[NVIDIA]]. While alternatives like TPUs, FPGAs, and ASICs offer specialized functionalities, GPUs remain a versatile and powerful choice for many industries. As technology progresses, GPUs are likely to continue evolving, pushing the boundaries of what’s possible in computation, [[simulation]], graphics, and beyond.

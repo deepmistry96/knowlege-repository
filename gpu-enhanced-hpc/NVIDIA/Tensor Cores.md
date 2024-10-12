@@ -1,5 +1,5 @@
 
-**Tensor Cores** are specialized hardware units introduced by NVIDIA starting with their Volta architecture (e.g., Tesla V100 GPUs) and continued in Turing, Ampere, and subsequent architectures. They are designed to accelerate mixed-precision matrix operations, which are fundamental to deep learning computations.
+**Tensor Cores** are specialized hardware units introduced by [[NVIDIA]] starting with their Volta architecture (e.g., Tesla V100 GPUs) and continued in Turing, Ampere, and subsequent architectures. They are designed to accelerate mixed-precision matrix operations, which are fundamental to deep learning computations.
 
 ### **What Are Tensor Cores Good For Specifically?**
 
@@ -37,7 +37,7 @@
    - **Eigenvalue Decompositions and Singular Value Decompositions (SVDs)**: Common in various scientific computations.
 
 6. **High-Performance Computing (HPC) Applications**:
-   - Simulations and computational tasks that involve large tensor operations, such as physics simulations and computational fluid dynamics.
+   - [[simulation]]s and computational tasks that involve large tensor operations, such as physics [[simulation]]s and computational fluid dynamics.
 
 ### **Specific Use Cases and Benefits**:
 
@@ -49,7 +49,7 @@
 
 - **Software Support**:
   - To leverage Tensor Cores, frameworks like TensorFlow and PyTorch need to utilize mixed-precision training techniques.
-  - NVIDIA provides libraries like cuDNN and cuBLAS that are optimized for Tensor Core operations.
+  - [[NVIDIA]] provides libraries like [[cuDNN]] and [[cu[[BLAS]] that are optimized for Tensor Core operations.
 
 - **Numerical Precision and Stability**:
   - Mixed-precision can introduce numerical instability if not managed properly.
@@ -72,7 +72,7 @@ Tensor Cores are particularly beneficial for:
 - **Algorithms**: Those involving heavy linear algebra computations, especially large-scale matrix multiplications.
 - **Workloads**: Training and inference of deep neural networks in computer vision, NLP, speech recognition, and large-scale recommendation systems.
 
-Given your experience in AI/ML, you might recognize that while AMD GPUs offer strong general-purpose performance, the specialized acceleration provided by NVIDIA's Tensor Cores can be a significant advantage for certain deep learning tasks. This is especially true when training large models or deploying services that require high throughput and low latency.
+Given your experience in AI/ML, you might recognize that while [[AMD]] GPUs offer strong general-purpose performance, the specialized acceleration provided by [[NVIDIA]]'s Tensor Cores can be a significant advantage for certain deep learning tasks. This is especially true when training large models or deploying services that require high throughput and low latency.
 
 
 

@@ -1,17 +1,17 @@
 
 
-**Weather Research and Forecasting (WRF) model**
+**Weather Research and Forecasting ([[WRF]]) model**
 
-The main program of the **Weather Research and Forecasting (WRF) model** is responsible for initiating and managing key tasks involved in a weather simulation. These tasks include:
+The main program of the **Weather Research and Forecasting ([[WRF]]) model** is responsible for initiating and managing key tasks involved in a weather [[simulation]]. These tasks include:
 
-1. **Startup**: Initializes the model environment and prepares it for simulation.
-2. **Reading Configuration Data**: Reads the configuration files (which contain parameters and settings for the simulation) and broadcasts the configuration across distributed memory systems, facilitating parallel computing.
-3. **Domain Definition and Initialization**: Defines and initializes the top-level simulation domain. The domain can be initialized either from initial conditions (for a new simulation) or from restart data (if the simulation is being resumed).
-4. **Time-keeping Setup**: Configures the simulation's time-keeping mechanisms, ensuring that the model can track and manage simulation time.
-5. **Calling the Integration Routine**: Once the domain is set up, the program calls the `integrate` routine to advance the simulation. The integration process computes the evolution of weather variables (e.g., temperature, wind speed) over time, based on the defined physical and numerical models.
-6. **Shutdown**: After the simulation reaches the specified end time, the model is properly shut down, ensuring that any necessary cleanup tasks (such as saving outputs or releasing resources) are completed.
+1. **Startup**: Initializes the model environment and prepares it for [[simulation]].
+2. **Reading Configuration Data**: Reads the configuration files (which contain parameters and settings for the [[simulation]]) and broadcasts the configuration across distributed memory systems, facilitating parallel computing.
+3. **Domain Definition and Initialization**: Defines and initializes the top-level [[simulation]] domain. The domain can be initialized either from initial conditions (for a new [[simulation]]) or from restart data (if the [[simulation]] is being resumed).
+4. **Time-keeping Setup**: Configures the [[simulation]]'s time-keeping mechanisms, ensuring that the model can track and manage [[simulation]] time.
+5. **Calling the Integration Routine**: Once the domain is set up, the program calls the `integrate` routine to advance the [[simulation]]. The integration process computes the evolution of weather variables (e.g., temperature, wind speed) over time, based on the defined physical and numerical models.
+6. **Shutdown**: After the [[simulation]] reaches the specified end time, the model is properly shut down, ensuring that any necessary cleanup tasks (such as saving outputs or releasing resources) are completed.
 
-This is a high-level overview of the workflow in the main program of the WRF model, which orchestrates the entire simulation process from start to finish.
+This is a high-level overview of the workflow in the main program of the [[WRF]] model, which orchestrates the entire [[simulation]] process from start to finish.
 
 
 A **global SCRIP format source grid file** is typically used in earth system models for defining grid structures, such as when coupling different components like the atmosphere, ocean, and land surface models. **SCRIP** (Spherical Coordinate Remapping and Interpolation Package) is a library developed to handle grid interpolation and remapping for such models.
@@ -33,7 +33,7 @@ The SCRIP grid file is generally in **NetCDF** format and contains the following
 ### Use in Modeling:
 In the context of a coupled modeling system, the **source grid file** defines the grid for one component of the system, which will need to be remapped onto the target grid of another component. For example, if an atmospheric model is running on a high-resolution latitude-longitude grid and the ocean model is running on a lower-resolution grid, SCRIP handles the interpolation between the two grids.
 
-This file is essential in ensuring proper communication and data consistency between models that operate on different grids in global climate simulations or other earth system models.
+This file is essential in ensuring proper communication and data consistency between models that operate on different grids in global climate [[simulation]]s or other earth system models.
 
 
 

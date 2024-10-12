@@ -11,9 +11,89 @@
             "id": "ba07461b15638a37",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "90ae98354a953090",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "53a807c746d73dce",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "ea27b60f28e1bca8",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "GPU-enhanced-HPC.md",
+                "file": "NVIDIA HPC SDK.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a36f88e7872c8e00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Monte Carlo Open Source Projects.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "daa1c8d738bbae80",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "4752f44ffa65bdfe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fortran compilers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56db72b8a95a72b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "gfortran.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8b39ca59c4f294dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ifort.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FDS simulation.md",
+                "file": "Modeling and Simulation/FDS simulation.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +129,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tensor Cores.md",
+                "file": "NVIDIA/Tensor Cores.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +141,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RDNA2 & RDNA3.md",
+                "file": "AMD/RDNA2 & RDNA3.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +153,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FDS simulation.md",
+                "file": "Modeling and Simulation/FDS simulation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +165,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RDNA2 & RDNA3.md",
+                "file": "AMD/RDNA2 & RDNA3.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +177,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROCm HIP Overview.md",
+                "file": "AMD/ROCm HIP Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,14 +189,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CUDA An In-Depth Overview.md",
+                "file": "NVIDIA/CUDA An In-Depth Overview.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -182,7 +262,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CUDA An In-Depth Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +278,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CUDA An In-Depth Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,9 +299,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CUDA An In-Depth Overview.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -243,16 +319,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9a36039c0afdd2d0",
+  "active": "daa1c8d738bbae80",
   "lastOpenFiles": [
-    "CUDA An In-Depth Overview.md",
-    "ROCm HIP Overview.md",
-    "RDNA2 & RDNA3.md",
-    "CUDA vs ROCm.md",
-    "FDS simulation.md",
-    "GPU-enhanced-HPC.md",
-    "WRF model.md",
-    "Tensor Cores.md",
-    "Porting Fortran Code to AMD GPUs Using ROCm.md"
+    "gfort.md",
+    "fortran compilers.md",
+    "OpenACC.md",
+    "Monte Carlo.md",
+    "simulation.md",
+    "BLAS.md",
+    "NVIDIA.md",
+    "AMD/hipBLAS.md",
+    "gfortran.md",
+    "OpenMP.md",
+    "NVFORTRAN.md",
+    "NVIDIA HPC SDK.md",
+    "NCCL.md",
+    "Monte Carlo Simulations.md",
+    "Monte Carlo Open Source Projects.md",
+    "Modeling and Simulation/Fortran-Based Scientific Computing.md",
+    "NVIDIA/cuSOLVER.md",
+    "MIOpen.md",
+    "NVIDIA/CUDA Ecosystem.md",
+    "Physics Simulations.md",
+    "Modeling and Simulation/FDS simulation.md",
+    "RCCL.md",
+    "cuFFT.md",
+    "NVIDIA/cuSPARSE.md",
+    "ROCm.md",
+    "Modeling and Simulation/WRF.md",
+    "Untitled",
+    "Modeling and Simulation",
+    "AMD",
+    "NVIDIA"
   ]
 }

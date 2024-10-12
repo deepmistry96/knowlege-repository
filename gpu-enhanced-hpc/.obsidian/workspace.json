@@ -1,0 +1,258 @@
+{
+  "main": {
+    "id": "7a19cfc1b6d4ef2b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3988bea3475cdd31",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ba07461b15638a37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GPU-enhanced-HPC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c573c1f657617c4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GPU-enhanced-HPC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "acf5d4eb7769579b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FDS simulation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad16c30ae3b7b653",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tensor Cores.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3282a2f1a957d6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RDNA2 & RDNA3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54243d9f94bcad96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FDS simulation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2773744745d5a96d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RDNA2 & RDNA3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e732a6919bfde7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ROCm HIP Overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a36039c0afdd2d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CUDA An In-Depth Overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6a94fd41ef64c7ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "0eaf6f9e8a20faf8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3327a77c05221ddf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3474c760d09a1757",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a1f4353ef334574e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9f3f1eda3205b593",
+    "type": "split",
+    "children": [
+      {
+        "id": "93068d3f03e83b78",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0e76feaa4bb64b5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CUDA An In-Depth Overview.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "54b7fef23d2ec0bc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CUDA An In-Depth Overview.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "61040d29a2127713",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b443ffbca359cec5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CUDA An In-Depth Overview.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "9a36039c0afdd2d0",
+  "lastOpenFiles": [
+    "CUDA An In-Depth Overview.md",
+    "ROCm HIP Overview.md",
+    "RDNA2 & RDNA3.md",
+    "CUDA vs ROCm.md",
+    "FDS simulation.md",
+    "GPU-enhanced-HPC.md",
+    "WRF model.md",
+    "Tensor Cores.md",
+    "Porting Fortran Code to AMD GPUs Using ROCm.md"
+  ]
+}

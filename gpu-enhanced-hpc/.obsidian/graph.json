@@ -20,6 +20,27 @@
         "a": 1,
         "rgb": 15139844
       }
+    },
+    {
+      "query": "path:\"Modeling and Simulation\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 15861
+      }
+    },
+    {
+      "query": "path:fortran",
+      "color": {
+        "a": 1,
+        "rgb": 7608230
+      }
+    },
+    {
+      "query": "path:general  ",
+      "color": {
+        "a": 1,
+        "rgb": 64221
+      }
     }
   ],
   "collapse-display": true,
@@ -32,6 +53,6 @@
   "repelStrength": 12.1883138020833,
   "linkStrength": 0.987630208333333,
   "linkDistance": 30,
-  "scale": 1.1029488891070471,
+  "scale": 0.9158975427807665,
   "close": true
 }

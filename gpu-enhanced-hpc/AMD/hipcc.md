@@ -25,15 +25,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 # Detailed Comparison of **`hipcc`** and **`[[nvcc]]`**
 
 ---

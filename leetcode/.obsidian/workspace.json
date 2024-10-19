@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "4d552225b4eae105",
+    "type": "split",
+    "children": [
+      {
+        "id": "af14c6093d839afe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88741a4460cb6360",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sliding Window.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "778c67399b592af0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Problems/26-RemoveDuplicatesfromSortedArray.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "29b975012e632c22",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eafb8e79bed0912f",
+    "type": "split",
+    "children": [
+      {
+        "id": "915acfa3339ef08f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f26658fbe5769dc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "39b2b92563bf24b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8f43c4519c16cd02",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "396a8f46368acbab",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee27909b01af729a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2dd791ad92f6d5ed",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Problems/26-RemoveDuplicatesfromSortedArray.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dcddc86b9507e44f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Problems/26-RemoveDuplicatesfromSortedArray.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6685b32cab2bb923",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cb9cbb844d3b5009",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Problems/26-RemoveDuplicatesfromSortedArray.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "778c67399b592af0",
+  "lastOpenFiles": [
+    "594-LongestHarmoniousSubsequence.md",
+    "Sliding Window.md",
+    "Two Pointers or Iterators.md",
+    "Fast and Slow pointers.md",
+    "Tree BFS.md",
+    "Problems/26-RemoveDuplicatesfromSortedArray.md",
+    "Topological sort.md",
+    "Top K elements.md",
+    "Subsets.md",
+    "Merge Intervals.md",
+    "K-way Merge.md",
+    "In-place reversal of linked list.md",
+    "Cyclic sort.md",
+    "202-HappyNumber.md",
+    "Problems/121-BestTimetoBuyandSellStock.md",
+    "Problems/88-MergedSortedList.md",
+    "Problems/27-RemoveElement.md",
+    "Problems",
+    "Modified binary search.md",
+    "Two heaps.md",
+    "Tree DFS.md"
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "1da8b599f6f82652",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c21fd674da40339",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9232b006a94ced34",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1ee5c51279bd731d",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe2e3b2684e76b23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6de21dd6f0582b04",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d1673ac30a3b0d16",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6ff4a0ca1fc9850f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b39b73b61bc3338f",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd32e784023e5cff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5cfe5f8b6e826a7f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1ecd1fdbe28c128d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "375bc5115afa48f8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "276478c236931311",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "6de21dd6f0582b04",
+  "lastOpenFiles": [
+    "public-knowledge-graphs/xAI.md",
+    "public-knowledge-graphs/weights.md",
+    "public-knowledge-graphs/very large datasets.md",
+    "public-knowledge-graphs/translation.md",
+    "public-knowledge-graphs/transformer model.md",
+    "public-knowledge-graphs/summarization.md",
+    "public-knowledge-graphs/specific industry-related text.md",
+    "public-knowledge-graphs/softmax function.md",
+    "public-knowledge-graphs/sequence-to-sequence architecture.md",
+    "public-knowledge-graphs/self-attention.md",
+    "public-knowledge-graphs/self-attention mechanism.md",
+    "public-knowledge-graphs/question answering.md",
+    "public-knowledge-graphs/pretrained.md",
+    "public-knowledge-graphs/parameters.md",
+    "public-knowledge-graphs/neural network model.md",
+    "public-knowledge-graphs/natural language processing.md",
+    "public-knowledge-graphs/learning rate.md",
+    "public-knowledge-graphs/learning to predict the next word in a sentence.md",
+    "public-knowledge-graphs/fine-tuned.md",
+    "public-knowledge-graphs/few-shot and zero-shot learning.md",
+    "public-knowledge-graphs/encoders-and-decoders-diagram.png",
+    "public-knowledge-graphs/contextually relevant text.md",
+    "public-knowledge-graphs/biases.md",
+    "public-knowledge-graphs/attention mechanisms.md",
+    "public-knowledge-graphs/Zero-Shot Learning.md",
+    "public-knowledge-graphs/Weights and Biases.md",
+    "public-knowledge-graphs/Using RAG Implementations on specific industry-related text.md",
+    "public-knowledge-graphs/Untitled.canvas",
+    "public-knowledge-graphs",
+    "fortran-obsidian/notees",
+    "fortran-obsidian",
+    "fortran-obsidian-new/notees",
+    "fortran-obsidian-new",
+    "untitled folder",
+    "public-knowledge-graphs-new/encoders-and-decoders-diagram.png",
+    "public-knowledge-graphs-new/Untitled.canvas",
+    "public-knowledge-graphs-new"
+  ]
+}

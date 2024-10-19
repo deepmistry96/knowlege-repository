@@ -1,0 +1,4 @@
+- **[[Array Handling]]**: Fortran provides built-in support for array operations, making it suitable for complex mathematical computations.
+- **Rich Set of [[Libraries]]**: Fortran has extensive libraries for linear algebra, numerical methods, etc.
+- **[[Portability]]**: Programs written in Fortran can often be run on different platforms with little modification.
+- **Fixed and Free Formats**: Older versions of Fortran (like Fortran 77) used a fixed-format style, whereas newer versions (like Fortran 90 and later) support free-format coding.

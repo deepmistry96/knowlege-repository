@@ -1,0 +1,2 @@
+- **Forgetting Type Declarations**: Fortran requires variables to be declared, and type mismatches can lead to errors.
+- **Array Bounds**: Be attentive to array bounds; trying to access an array element outside its declared range often leads to runtime errors.
